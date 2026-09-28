@@ -1,0 +1,13 @@
+Test Case: Linux Normal Termination With Non-Zero Exit Status
+
+Command:
+./termination_test error
+
+Expected:
+Child terminates normally with exit status 5.
+
+Evidence to record:
+- Child PID
+- Termination type: Normal
+- Exit status: 5
+- Termination message

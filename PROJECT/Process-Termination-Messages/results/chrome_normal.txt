@@ -1,0 +1,13 @@
+Test Case: Chrome Normal Termination
+
+Procedure:
+1. Close all existing Chrome windows/background Chrome processes.
+2. Run ./process_monitor from src/.
+3. Choose option 2.
+4. Close Chrome normally.
+
+Expected:
+Chrome disappears from the Windows process list and the program reports normal termination.
+
+Note:
+Windows Chrome is monitored externally from WSL, so a POSIX waitpid() exit status is not reported.

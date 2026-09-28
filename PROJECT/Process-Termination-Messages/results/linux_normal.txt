@@ -1,1 +1,13 @@
+Test Case: Linux Normal Termination
 
+Command:
+sleep 10
+
+Expected:
+Child terminates normally.
+
+Evidence to record:
+- Child PID
+- Termination type: Normal
+- Exit status: 0
+- Termination message

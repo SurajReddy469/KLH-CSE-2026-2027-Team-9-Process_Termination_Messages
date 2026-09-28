@@ -1,0 +1,13 @@
+Test Case: Linux Signal-Based Abnormal Termination
+
+Command:
+./termination_test signal
+
+Expected:
+Child is terminated by SIGTERM.
+
+Evidence to record:
+- Child PID
+- Termination type: Abnormal (Signal)
+- Signal number: 15
+- Signal: SIGTERM
